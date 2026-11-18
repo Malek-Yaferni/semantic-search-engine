@@ -1,0 +1,13 @@
+# Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Dataset (download separately, see README)
+data/raw/
+
+# Generated FAISS indexes (rebuilt automatically, can be large)
+data/processed/*.index
